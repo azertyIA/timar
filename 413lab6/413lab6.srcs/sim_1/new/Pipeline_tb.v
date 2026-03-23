@@ -63,8 +63,16 @@ module Pipeline_tb;
 		#10;
 		InstrIn = 32'b000000_00000_00000_00000_00000000000;				// Do nothing
 
-
 		// To Do: implement more test cases here
+		
+		#10;
+		InstrIn = 32'b000000_00101_00101_00101_00000000000;				// Read out R5 and R5, write result to R5
+
+		#10;
+		InstrIn = 32'b000000_00100_00100_00000_00000000000;				// Read out R4 and R0, write result to R4
+
+		#10;
+		InstrIn = 32'b000000_00011_00010_00001_00000000000;				// Read out R4 and R0, write result to R4
 
 		#100;
 		$finish;
