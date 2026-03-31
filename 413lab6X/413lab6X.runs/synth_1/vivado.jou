@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Mar 25 12:51:46 2026
+# Process ID: 1096
+# Current directory: X:/timar/413lab6X/413lab6X.runs/synth_1
+# Command line: vivado.exe -log Pipeliner.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Pipeliner.tcl
+# Log file: X:/timar/413lab6X/413lab6X.runs/synth_1/Pipeliner.vds
+# Journal file: X:/timar/413lab6X/413lab6X.runs/synth_1\vivado.jou
+# Running On        :ECE-CTX-A
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :20348
+# Processor Detail  :Intel Xeon Processor (Icelake)
+# CPU Frequency     :2993 MHz
+# CPU Physical cores:8
+# CPU Logical cores :8
+# Host memory       :17179 MB
+# Swap memory       :4787 MB
+# Total Virtual     :21967 MB
+# Available Virtual :2462 MB
+#-----------------------------------------------------------
+source Pipeliner.tcl -notrace

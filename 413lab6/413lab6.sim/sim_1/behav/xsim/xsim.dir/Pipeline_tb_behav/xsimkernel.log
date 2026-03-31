@@ -2,3 +2,6 @@ Running: xsim.dir/Pipeline_tb_behav/xsimk.exe -simmode gui -wdb Pipeline_tb_beha
 Design successfully loaded
 Design Loading Memory Usage: 12360 KB (Peak: 12360 KB)
 Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 12852 KB (Peak: 12852 KB)
+Simulation CPU Usage: 93 ms
