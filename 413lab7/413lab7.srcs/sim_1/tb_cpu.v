@@ -54,13 +54,14 @@ module tb_cpu;
 		instruction_initialize_data = 32'b000000_00101_00110_00111_00000_10_0110;      // Validating the XOR operation 
 		
 		#20	
-        instruction_initialize_address = 20;
+        instruction_initialize_address = 32;
 		instruction_initialize_data = 32'b000100_00000_00000_11111_11111_11_1111;      // BEQ R0, R0, -1
+		#20
 		
 		initialize = 0;
 		rst = 0;
 		
-		#200;
+		#300;
 		$finish;
 	end
       

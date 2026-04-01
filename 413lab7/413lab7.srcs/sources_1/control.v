@@ -59,12 +59,12 @@ always @(*) begin
 		ALUSrc = 1'b0;
 		MemWrite = 1'b0;
 		RegWrite = 1'b0;
-	end else if (instruction == 6'b00_0020) begin   // j
+	end else if (instruction == 6'b00_0010) begin   // j
 		ALUOp = 2'b00;
 		MemRead = 1'b0;
 		MemtoReg = 1'b0;
 		RegDst = 1'b0;
-		Branch = 1'b1;		
+		Branch = 1'b0;		
 		BranchNE = 1'b0;		
 		Jump = 1'b1;
 		ALUSrc = 1'b0;

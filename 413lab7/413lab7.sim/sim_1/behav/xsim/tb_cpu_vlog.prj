@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../413lab7.srcs/sources_1/ALU.v" \
+"../../../../413lab7.srcs/sources_1/ALU_control.v" \
+"../../../../413lab7.srcs/sources_1/Adder.v" \
+"../../../../413lab7.srcs/sources_1/InstrMem.v" \
+"../../../../413lab7.srcs/sources_1/Memory.v" \
+"../../../../413lab7.srcs/sources_1/PC.v" \
+"../../../../413lab7.srcs/sources_1/control.v" \
+"../../../../413lab7.srcs/sources_1/cpu.v" \
+"../../../../413lab7.srcs/sources_1/mux.v" \
+"../../../../413lab7.srcs/sources_1/nbit_register_file.v" \
+"../../../../413lab7.srcs/sources_1/shift_left_2.v" \
+"../../../../413lab7.srcs/sources_1/sign_extend.v" \
+"../../../../413lab7.srcs/sim_1/tb_cpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

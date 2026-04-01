@@ -83,12 +83,12 @@ Adder #(32) Branch_Target_Adder (PC_plus_4, immediate_x_4, Branch_target_address
 wire [31:0] jump_x_4;
 shift_left_2 #(32) Shift_Jump_Two ({0, instruction[25:0]}, jump_x_4);
     
-wire PCBEQ, PCBNE, PCSrc;
+wire PCBEQ, PCBNE, PCSrc, not_zero_flag;
 wire [31:0] PC_Brancher;
-not Not_Zero (not_zero_flag);
-and BEQ_And (PCSrc, Branch, zero_flag);
-and BNE_And (PCSrc, Branch, not_zero_flag);
-or Branch_OR (PCSrc, Branch, zero_flag);
+not Not_Zero (not_zero_flag, zero_flag);
+and BEQ_And (PCBEQ, Branch, zero_flag);
+and BNE_And (PCBNE, BranchNE, not_zero_flag);
+or Branch_OR (PCSrc, PCBEQ, PCBNE);
 mux #(32) PC_Input_MUX (PCSrc, PC_plus_4, Branch_target_address, PC_Brancher);
 mux #(32) PC_Jump_MUX (Jump, PC_Brancher, {PC_plus_4[31:28], jump_x_4[27:0]}, PC_in);
 endmodule
