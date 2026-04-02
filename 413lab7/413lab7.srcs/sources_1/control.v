@@ -30,7 +30,7 @@ always @(*) begin
 		ALUOp = 2'b11;
 		MemRead = 1'b0;
 		MemtoReg = 1'b0;
-		RegDst = 1'b1;
+		RegDst = 1'b0; // was 1
 		Branch = 1'b0;		
 		BranchNE = 1'b0;		
 		Jump = 1'b0;

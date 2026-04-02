@@ -60,9 +60,11 @@ sign_extend Sign_Extend( instruction[15:0], immediate);
     
 wire [31:0] ALU_input_2;
 wire zero_flag;
+wire [5:0] ALU_instruction;
 wire [2:0] ALU_function;
 mux #(32) ALU_Input_2_Mux (ALUSrc, read_data_2, immediate, ALU_input_2);
-ALU_control ALU_Control(instruction[5:0], ALUOp, ALU_function);
+mux #(32) ALU_Instruction_Mux (ALUSrc, instruction[5:0], instruction[31:26], ALU_instruction);
+ALU_control ALU_Control(ALU_instruction, ALUOp, ALU_function);
 ALU ALU(read_data_1, ALU_input_2, ALU_function, ALUOut, zero_flag);
     
 Memory Data_Memory(ALUOut, read_data_2, MemOut, MemRead, MemWrite, clk);

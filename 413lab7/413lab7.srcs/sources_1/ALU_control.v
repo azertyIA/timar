@@ -35,11 +35,11 @@ always @(*) begin
 	end else if (ALUOp == 2'b10) begin
 		func <= 3'd0;
 	end else if (ALUOp == 2'b11) begin  
-		if (instruction == 6'h08)      // SUBI
+		if (instruction == 6'b000011)      // SUBI this used to be 8
 			func <= 3'd1;
-		else if (instruction == 6'h0C) // ANDI
+		else if (instruction == 6'b001100) // ANDI
 			func <= 3'd2;
-		else if (instruction == 6'h0F) // LUI
+		else if (instruction == 6'b001111) // LUI
 			func <= 3'd7;
 	end
 end
