@@ -70,9 +70,27 @@ module tb_cpu;
 	    instruction_initialize_data = 32'b001111_00000_00001_0000_0000_0100_0011;      // LUI R1, 67 R1 <= 67
 		#20;
         instruction_initialize_address = 52;
+		instruction_initialize_data = 32'b000101_00000_00001_0000_0000_0000_0010;      // BNE R0, R1, 2 (to the 69)
+		#20;
+		instruction_initialize_address = 56;                                                        
+	    instruction_initialize_data = 32'b001111_00000_00001_0000_0000_0100_0011;      // LUI R1, 67 R1 <= 67
+		#20;
+		instruction_initialize_address = 60;                                                        
+	    instruction_initialize_data = 32'b001111_00000_00001_0000_0000_0000_0000;      // LUI R1, 0 R1 <= 0
+		#20;
+		instruction_initialize_address = 64;                                                        
+	    instruction_initialize_data = 32'b001111_00000_00001_0000_0000_0100_0101;      // LUI R1, 69 R1 <= 69
+		#20;
+		instruction_initialize_address = 68;                                                        
+		instruction_initialize_data = 32'b000101_00000_00000_11111_11111_11_1111;      // BNE R0, R0, -1 (DONT STOP)
+		#20;
+		instruction_initialize_address = 72;                                                        
+	    instruction_initialize_data = 32'b000010_000000_0000_0000_0000_0001_1001;      // J 100
+		#20;
+		instruction_initialize_address = 100;                                                        
 		instruction_initialize_data = 32'b000100_00000_00000_11111_11111_11_1111;      // BEQ R0, R0, -1
 		#20;
-		
+
 		
 		initialize = 0;
 		rst = 0;
