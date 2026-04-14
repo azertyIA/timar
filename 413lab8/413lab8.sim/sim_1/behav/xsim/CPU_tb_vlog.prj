@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../413lab8.srcs/sources_1/imports/phu/CPU.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/RegFile.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/alu.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/alucontrol.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/hazardunit.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/incrementer.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/jumpadd.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/load_in_counter.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/memory2.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/multiplycontrol.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/mux2to1.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/mux2to1_1bit.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/mux2to1_5bit.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/mux3to1_32bit.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/pipecontrol.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/reg_14bitne.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/reg_2bitne.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/reg_32bit.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/reg_32bitne.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/reg_5bitne.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/signextend.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/signextend26.v" \
+"../../../../413lab8.srcs/sources_1/imports/phu/stallmux.v" \
+"../../../../413lab8.srcs/sim_1/imports/CPU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

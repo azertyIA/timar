@@ -1,0 +1,50 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/alucontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/hazardunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazardunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/incrementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/jumpadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jumpadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/load_in_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module load_in_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/memory2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory2
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/multiplycontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplycontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/mux2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/mux2to1_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1_1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/mux2to1_5bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1_5bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/mux3to1_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3to1_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/pipecontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipecontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/reg_14bitne.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_14bitne
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/reg_2bitne.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_2bitne
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/reg_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/reg_32bitne.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_32bitne
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/reg_5bitne.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_5bitne
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/signextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/signextend26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signextend26
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/stallmux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stallmux
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sim_1/imports/CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
