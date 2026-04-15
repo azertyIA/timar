@@ -46,5 +46,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sourc
 INFO: [VRFC 10-311] analyzing module stallmux
 INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.srcs/sim_1/imports/CPU_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module CPU_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "X:/timar/413lab8/413lab8.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
