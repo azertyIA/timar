@@ -4,7 +4,7 @@ May 22 2024
 19:03:11
 X:/timar/413lab8/413lab8.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
 X:/timar/413lab8/413lab8.srcs/sim_1/imports/CPU_tb.v,1776119294,verilog,,,,CPU_tb,,,,,,,,
-X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/CPU.v,1776211801,verilog,,X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/RegFile.v,,CPU,,,,,,,,
+X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/CPU.v,1776268014,verilog,,X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/RegFile.v,,CPU,,,,,,,,
 X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/RegFile.v,1776119294,verilog,,X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/alu.v,,RegFile,,,,,,,,
 X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/alu.v,1776119294,verilog,,X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/alucontrol.v,,alu,,,,,,,,
 X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/alucontrol.v,1776119294,verilog,,X:/timar/413lab8/413lab8.srcs/sources_1/imports/phu/hazardunit.v,,alucontrol,,,,,,,,
