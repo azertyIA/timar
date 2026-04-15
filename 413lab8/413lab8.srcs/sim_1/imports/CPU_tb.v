@@ -59,6 +59,10 @@ module CPU_tb;
 		#10;
 		Instruction = 32'b001000_00000_00101_0000000000000001; //addi $R5, $R0, 1
 		#10;
+		Instruction = 32'b000000_00011_00011_00011_00000_100000; //add $R3, $R3, $R3 -- added this to test regfile RW
+		#10;
+		Instruction = 32'b001000_00000_00011_0000000110110100; //addi $R3, $R0, 436 -- revert to normal flow
+		#10;
 		Instruction = 32'b100011_00000_00110_0000000000001000;	// LW $R6, 8(R0)
 		#10;
 		Instruction = 32'b000000_00110_00011_01001_00000_100101; //or  $R9, $R6, $R3
